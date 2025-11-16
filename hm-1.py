@@ -175,6 +175,10 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 """
 
 ### YOUR CODE HERE:
+# students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
+# total_grade = sum(students.values())
+# average_grade = total_grade / len(students)
+# print(f'Средна оценка: {average_grade:.2f}')
 
 ### EXPECTED OUTPUT:
 # Средна оценка: 5.33
@@ -190,7 +194,11 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 
 ### YOUR CODE HERE:
+# def rectangle_area(width, height) -> int:
+#     return width * height
 
+# print(f'Площта на правоъгълник 5x10 е: {rectangle_area(5, 10)}')
+# print(f'Площта на правоъгълник 3x7 е: {rectangle_area(3, 7)}')
 
 ### EXPECTED OUTPUT:
 # Площта на правоъгълник 5x10 е: 50
@@ -207,7 +215,11 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 
 ### YOUR CODE HERE:
+# def is_even(n) -> bool:
+#     return n % 2 == 0
 
+# print(f'8 е четно: {is_even(8)}')
+# print(f'7 е четно: {is_even(7)}')
 
 ### EXPECTED OUTPUT:
 # 8 е четно: True
@@ -244,6 +256,8 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 
 ### YOUR CODE HERE:
+# random_number = random.randint(1, 100)
+# print(f'Случайно число: {random_number}')
 
 ### EXPECTED OUTPUT:
 # Случайно число: 47  (или друго случайно число)
@@ -259,6 +273,22 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 """
 
 ### YOUR CODE HERE:
+# def add(a, b) -> int:
+#     return a + b
+
+# def subtract(a, b) -> int:
+#     return a - b
+
+# def multiply(a, b) -> int:
+#     return a * b
+
+# def divide(a, b) -> float:
+#     return a / b
+
+# print(f'10 + 5 = {add(10, 5)}')
+# print(f'10 - 5 = {subtract(10, 5)}')
+# print(f'10 * 5 = {multiply(10, 5)}')
+# print(f'10 / 5 = {divide(10, 5)}')
 
 ### EXPECTED OUTPUT:
 # 10 + 5 = 15
